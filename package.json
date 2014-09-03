@@ -1,0 +1,42 @@
+{
+  "name": "object-md5",
+  "description": "Create a md5 hash out of an object.",
+  "url": "https://github.com/nickpoorman/object-md5",
+  "author": "Nick Poorman <mail@nickpoorman.com>",
+  "contributors": [
+    {
+      "name": "Nick Poorman",
+      "email": "mail@nickpoorman.com",
+      "url": "http://nickpoorman.com/"
+    }
+  ],
+  "version": "0.0.1",
+  "dependencies": {
+    "lodash": "^2.4.1"
+  },
+  "devDependencies": {
+    "mocha": "^1.21.4",
+    "should": "^4.0.4"
+  },
+  "scripts": {
+    "start": "index.js",
+    "test": "mocha test/*.js"
+  },
+  "engines": {
+    "node": "0.10.x"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:nickpoorman/object-md5.git"
+  },
+  "license": "MIT",
+  "main": "index.js",
+  "homepage": "https://github.com/nickpoorman/object-md5",
+  "keywords": [
+    "object-md5",
+    "md5",
+    "object-hash",
+    "hash",
+    "object"
+  ]
+}
